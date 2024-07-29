@@ -7,9 +7,9 @@ Bem-vindo ao repositório do curso técnico em Desenvolvimento de Sistemas do SE
 Atualmente, no terceiro semestre, você está cursando as seguintes matérias:
 
 1. **Desenvolvimento Mobile I** com [Giovanni Ribeiro](https://github.com/giovannirp?tab=repositories)
-2. **Desenvolvimento Mobile II** com [Samuel Santos](https://github.com/samuel-santos)
-3. **Back-end II** com [Arthur Rosa](https://github.com/arthur-rosa)
-4. **Banco de Dados** com [Arthur Rosa](https://github.com/arthur-rosa)
+2. **Desenvolvimento Mobile II** com [Samuel Santos](https://github.com/mucasantos/mucasantos)
+3. **Back-end II** com [Arthur Rosa](https://github.com/Arthur-Rosa)
+4. **Banco de Dados** com [Arthur Rosa](https://github.com/Arthur-Rosa)
 
 ## Ementa das Matérias 📚
 

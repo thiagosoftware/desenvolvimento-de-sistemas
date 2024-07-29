@@ -1,6 +1,6 @@
 # Curso Técnico em Desenvolvimento de Sistemas - SENAI Cotia 📚💻
 
-Bem-vindo ao repositório do curso técnico em Desenvolvimento de Sistemas do SENAI Cotia. Este repositório serve como um recurso para apoiar seus estudos nas disciplinas atuais e é gerenciado pelos professores do curso.
+Este repositório foi criado para fins de desenvolvimento e organização pessoal, além de servir como uma vitrine do meu progresso acadêmico e profissional. O curso técnico em Desenvolvimento de Sistemas é oferecido pelo SENAI Cotia e é patrocinado pela Libbs Farmacêutica, onde atuo como Jovem Aprendiz Técnico. O repositório está acessível a recrutadores e interessados em acompanhar meu trabalho e estudos.
 
 ## Matérias Atuais 🏫
 
@@ -11,51 +11,47 @@ Atualmente, no terceiro semestre, você está cursando as seguintes matérias:
 3. **Back-end II** com [Arthur Rosa](https://github.com/Arthur-Rosa)
 4. **Banco de Dados** com [Arthur Rosa](https://github.com/Arthur-Rosa)
 
-## Ementa das Matérias 📚
+## Matérias do Semestre 📚
 
-### Desenvolvimento Mobile I
+### - Desenvolvimento Mobile I
 
-- Introdução ao desenvolvimento de aplicativos móveis
-- Utilização de ferramentas e frameworks para desenvolvimento mobile
-- Implementação de interfaces e funcionalidades básicas em aplicativos móveis
-- Conceitos fundamentais de design responsivo para dispositivos móveis
+### - Desenvolvimento Mobile II
 
-### Desenvolvimento Mobile II
+### - Back-end II
 
-- Avançado em técnicas de desenvolvimento mobile
-- Integração com APIs e serviços externos
-- Gerenciamento de estados e navegação em aplicativos móveis
-- Melhoria de desempenho e otimização de aplicativos
-
-### Back-end II
-
-- Desenvolvimento de serviços e APIs
-- Utilização de frameworks e bibliotecas para back-end
-- Implementação de autenticação e segurança em aplicações
-- Arquitetura de software e melhores práticas em desenvolvimento back-end
-
-### Banco de Dados
-
-- Modelagem e design de banco de dados
-- Consultas e manipulação de dados utilizando SQL
-- Administração e manutenção de bancos de dados
-- Otimização de desempenho e integridade de dados
+### - Banco de Dados
 
 ## Organização do Repositório 🗂️
 
 O repositório está organizado da seguinte forma:
 
 - **/Desenvolvimento-Mobile-I**: Material e atividades referentes à disciplina Desenvolvimento Mobile I
-- **/Desenvolvimento-Mobile-II**: Material e atividades referentes à disciplina Desenvolvimento Mobile II
-- **/Back-end-II**: Material e atividades referentes à disciplina Back-end II
-- **/Banco-de-Dados**: Material e atividades referentes à disciplina Banco de Dados
+  - Cada pasta dentro desta seção está separada por dias de aula, facilitando o acesso ao material de cada dia específico.
 
-Cada pasta contém notas de aula, exercícios, projetos e outros recursos pertinentes à disciplina correspondente.
+- **/Desenvolvimento-Mobile-II**: Material e atividades referentes à disciplina Desenvolvimento Mobile II
+  - Cada pasta dentro desta seção está separada por dias de aula, facilitando o acesso ao material de cada dia específico.
+
+- **/Back-end-II**: Material e atividades referentes à disciplina Back-end II
+  - Cada pasta dentro desta seção está separada por dias de aula, facilitando o acesso ao material de cada dia específico.
+
+- **/Banco-de-Dados**: Material e atividades referentes à disciplina Banco de Dados
+  - Cada pasta dentro desta seção está separada por dias de aula, facilitando o acesso ao material de cada dia específico.
+
+## Previsão de Término 📅
+
+O curso, assim como o programa de Jovem Aprendiz Técnico, está previsto para ser concluído em junho de 2025.
 
 ## Certificado de Conclusão 🏅
 
-Certificados serão emitidos pelo Serviço Nacional de Aprendizagem Industrial (SENAI) ao final do curso. Mais detalhes sobre a emissão de certificados estarão disponíveis em breve aqui.
+Certificados de conclusão serão emitidos pelo Serviço Nacional de Aprendizagem Industrial (SENAI) ao término do curso. Mais informações sobre a emissão dos certificados serão fornecidas conforme a data de conclusão se aproxima.
 
 ---
 
-Se tiver dúvidas ou precisar de ajuda adicional, entre em contato com os professores responsáveis pelas disciplinas. Aproveite o curso e bons estudos!
+## Contato 📞
+
+Para dúvidas ou mais informações, você pode entrar em contato comigo pelos seguintes meios:
+
+- **E-mail**: [tsr.souza@outlook.com](mailto:tsr.souza@outlook.com)
+- **WhatsApp**: [Clique aqui para enviar uma mensagem](https://api.whatsapp.com/send?phone=5511997197872&text=Ol%C3%A1,%20Thiago.%20Encontrei%20seu%20reposit%C3%B3rio%20do%20curso%20de%20Desenvolvimento%20de%20Sistemas%20e%20gostaria%20de%20conversar%20sobre%20isso.)
+- **LinkedIn**: [Thiago Rodrigues](https://www.linkedin.com/in/thiagorodriguesdev/)
+

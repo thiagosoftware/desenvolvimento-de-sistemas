@@ -4,7 +4,7 @@ Este repositório foi criado para fins de desenvolvimento e organização pessoa
 
 ## Matérias Atuais 🏫
 
-Atualmente, no terceiro semestre, você está cursando as seguintes matérias:
+Atualmente, no terceiro semestre, estou cursando as seguintes matérias:
 
 1. **Desenvolvimento Mobile I** com [Giovanni Ribeiro](https://github.com/giovannirp?tab=repositories)
 2. **Desenvolvimento Mobile II** com [Samuel Santos](https://github.com/mucasantos/mucasantos)

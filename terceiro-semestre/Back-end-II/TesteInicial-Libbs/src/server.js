@@ -1,5 +1,7 @@
 const express = require('express');
-const router = require('./router/router')
+const router = require('./router/router');
+const sequelize = require('./config/config');
+const User = require('./models/User');
 const app = express();
 
 // Modelo da API JSON
@@ -16,8 +18,17 @@ app.get('/healthcheck', (req, res) => {
     })
 })
 
-
 // Listen -> ouvir ( 8080 )
-app.listen(8080, () => {
-    console.log("Estamos online na http:8080")
+sequelize.authenticate()
+.then(async () => {
+    console.log('Conexão com o BD SQL estabelecida com sucesso.');
+    await sequelize.sync(); //sincronizar a tabela com o código
+})
+.then(() => {
+    app.listen(8080, () => {
+        console.log('Servidor online na porta 8080')
+    });
+})
+.catch((error) => {
+    console.error('Erro ao se conectar com o banco', error)
 })

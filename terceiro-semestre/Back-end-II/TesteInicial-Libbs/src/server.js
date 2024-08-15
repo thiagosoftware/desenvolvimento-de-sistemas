@@ -2,11 +2,12 @@ const express = require('express');
 const router = require('./router/router');
 const sequelize = require('./config/config');
 const User = require('./models/User');
+const Produto = require('./models/Produto');
 const app = express();
 
 // Modelo da API JSON
 app.use(express.json());
-app.use('/api/user', router);
+app.use('/api/', router);
 // REQ -> Requisição
 // RES -> Response
 

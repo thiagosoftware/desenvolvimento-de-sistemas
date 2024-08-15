@@ -24,9 +24,27 @@ const UserController = {
             console.log({ id });
             console.log({ nome, senha, email })
 
+            const userUpdate = await User.findByPk(id);
+
+            if (userUpdate == null) {
+                return res.status(404).json({
+                    msg: "Usuário não encontrado."
+                })
+            }
+
+            const updated = await userUpdate.update({
+                nome, senha, email
+            })
+
+            if(updated) {
             return res.status(200).json({
                 msg: 'Usuário atualizado com sucesso!'
             });
+        }
+
+        return res.status(500).json({
+            msg: "Erro ao atualizar usuário"
+        })
 
         } catch (error) {
             console.error(error);
@@ -36,7 +54,7 @@ const UserController = {
     getAll: async (req, res) => {
         try {
 
-            const allUser = await User.findAll({});
+            const allUser = await User.findAll();
 
             return res.status(200).json({
                 msg: 'Usuários encontrados:',
@@ -70,6 +88,21 @@ const UserController = {
     },
     delete: async (req, res) => {
         try {
+
+            const { id } = req.params;
+
+            const userFinded = await User.findByPk(id);
+
+            if (userFinded == null) {
+                return res.status(404).json({
+                    msg: "Usuário não encontrado"
+                })
+            }
+
+            // Destruindo -> Deletando 
+            // As same it delete
+            await userFinded.destroy();
+
             return res.status(200).json({
                 msg: 'Usuário deletado com sucesso!'
             })

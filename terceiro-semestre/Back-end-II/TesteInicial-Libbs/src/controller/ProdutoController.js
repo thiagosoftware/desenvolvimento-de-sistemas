@@ -1,5 +1,4 @@
 const Produto = require("../models/Produto");
-const { update } = require("./UserController");
 
 const ProdutoController = {
     create: async (req, res) => {
@@ -17,7 +16,6 @@ const ProdutoController = {
             return res.status(500).json({ msg: 'Acione o suporte' })
         }
     },
-
     update: async (req, res) => {
         try {
 
@@ -55,7 +53,6 @@ const ProdutoController = {
             return res.status(500).json({ msg: 'Acione o suporte' });
         }
     },
-
     getAll: async (req, res) => {
         try {
 
@@ -68,10 +65,9 @@ const ProdutoController = {
 
         } catch (error) {
             console.error(error);
-            return res.status(500).json({ msh: 'Acione o suporte' });
+            return res.status(500).json({ msg: 'Acione o suporte' });
         }
     },
-
     getOne: async (req, res) => {
         try {
             const { id } = req.params;
@@ -93,7 +89,6 @@ const ProdutoController = {
             return res.status(500).json({ msg: 'Acione o Suporte' });
         }
     },
-
     delete: async (req, res) => {
         try {
             const { id } = req.params;

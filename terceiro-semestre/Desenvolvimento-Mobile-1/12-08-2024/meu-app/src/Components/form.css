@@ -1,0 +1,31 @@
+.ContainerForm {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.form-control {
+    flex-direction: column;
+    display: flex;
+}
+
+.form-control input{
+    margin-bottom: 10px;
+    width: 180px;
+    height: 30px;
+    background-color: #00000027;
+    border: 0;
+}
+
+.buttonForm  {
+    margin-bottom: 10px;
+    width: 180px;
+    height: 30px;
+    background-color: #000000cc;
+    color: #fff;
+    border: 0;
+}
+
+.buttonForm:hover {
+    cursor: pointer;
+}

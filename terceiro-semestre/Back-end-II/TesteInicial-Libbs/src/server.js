@@ -1,8 +1,11 @@
+require('dotenv').config();     
+
 const express = require('express');
 const router = require('./router/router');
 const sequelize = require('./config/config');
 const User = require('./models/User');
-const Produto = require('./models/Produto');
+const Produto = require
+('./models/Produto');
 const app = express();
 
 // Modelo da API JSON
@@ -26,7 +29,7 @@ sequelize.authenticate()
     await sequelize.sync(); //sincronizar a tabela com o código
 })
 .then(() => {
-    app.listen(8080, () => {
+    app.listen(process.env.PORT == null ? 8080 : process.env.PORT, () => {
         console.log('Servidor online na porta 8080')
     });
 })

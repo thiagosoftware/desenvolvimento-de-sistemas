@@ -1,12 +1,16 @@
-require('dotenv').config();     
+require('dotenv').config();
 
 const express = require('express');
 const router = require('./router/router');
 const sequelize = require('./config/config');
+const cors = require('cors');
+
 const User = require('./models/User');
-const Produto = require
-('./models/Produto');
+const Produto = require('./models/Produto');
+
 const app = express();
+
+app.use(cors());
 
 // Modelo da API JSON
 app.use(express.json());
@@ -24,15 +28,15 @@ app.get('/healthcheck', (req, res) => {
 
 // Listen -> ouvir ( 8080 )
 sequelize.authenticate()
-.then(async () => {
-    console.log('Conexão com o BD SQL estabelecida com sucesso.');
-    await sequelize.sync(); //sincronizar a tabela com o código
-})
-.then(() => {
-    app.listen(process.env.PORT == null ? 8080 : process.env.PORT, () => {
-        console.log('Servidor online na porta 8080')
-    });
-})
-.catch((error) => {
-    console.error('Erro ao se conectar com o banco', error)
-})
+    .then(async () => {
+        console.log('Conexão com o BD SQL estabelecida com sucesso.');
+        await sequelize.sync(); //sincronizar a tabela com o código
+    })
+    .then(() => {
+        app.listen(process.env.PORT == null ? 8080 : process.env.PORT, () => {
+            console.log('Servidor online na porta 8080')
+        });
+    })
+    .catch((error) => {
+        console.error('Erro ao se conectar com o banco', error)
+    })
